@@ -1,7 +1,7 @@
 Package: genpca
 Type: Package
 Title: Generalized Principal Component Analysis
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: c(
     person("Brad", "Buchsbaum",
            email = "brad.buchsbaum@gmail.com",
@@ -31,8 +31,8 @@ URL: https://bbuchsbaum.github.io/genpca/,
 BugReports: https://github.com/bbuchsbaum/genpca/issues
 Config/Needs/website: albersdown
 NeedsCompilation: yes
-Packaged: 2026-09-05 19:18:39 UTC; bbuchsbaum
+Packaged: 2026-09-16 13:05:12 UTC; bbuchsbaum
 Author: Brad Buchsbaum [aut, cre, cph]
 Maintainer: Brad Buchsbaum <brad.buchsbaum@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-09-15 10:50:19 UTC
+Date/Publication: 2026-09-16 23:40:02 UTC

@@ -1,3 +1,12 @@
+# genpca 0.2.1
+
+### CRAN resubmission fixes
+
+* The internal MN-PCA SPD solver now rejects non-finite matrices before
+  Cholesky factorization and verifies that the computed inverse is finite.
+  This makes its failure behavior consistent across BLAS/LAPACK
+  implementations.
+
 # genpca 0.2.0
 
 ### Release review fixes

@@ -683,6 +683,9 @@ mnpca_mrl <- function(Y,
 
 .mnpca_safe_solve_spd <- function(G, eps = 1e-8) {
   G <- .mnpca_symmetrize(as.matrix(G))
+  if (any(!is.finite(G))) {
+    stop("Failed SPD solve in .mnpca_safe_solve_spd.")
+  }
   bump <- eps
   for (i in 0:7) {
     G_try <- G
@@ -691,7 +694,7 @@ mnpca_mrl <- function(Y,
       R <- chol(G_try)
       chol2inv(R)
     }, error = function(e) NULL)
-    if (!is.null(out)) {
+    if (!is.null(out) && all(is.finite(out))) {
       return(out)
     }
     bump <- bump * 10

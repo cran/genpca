@@ -1,7 +1,7 @@
-c3564f65f5dc02c9946d11dd8a826c01 *DESCRIPTION
+a814dc45448666f6464896954c77a770 *DESCRIPTION
 87d0979e9e9844083f4d853b44e361cb *LICENSE
 1bbec87b177c9a333d67502ea54495e1 *NAMESPACE
-e9f085c80a1c79278ae1e5ad77602daf *NEWS.md
+5161d6982c48e7b61072782094ed0f0e *NEWS.md
 92b9390bee9dbc6e98d8be6a0e7bdc0e *R/RcppExports.R
 77a91a90d43751a26dea4253fbd2bd76 *R/all_generic.R
 6922b9253416a93b8eedee475538bb6f *R/constraints_utils.R
@@ -15,7 +15,7 @@ cdbca4f202316c7981589940851ca7b8 *R/gmd_cache.R
 814ecb1a4a0b10f6de5b2c370326148e *R/gpca_cov.R
 2783bc00fc06238ed7cd49f7c57e9e86 *R/gplssvd_op.R
 6bb05faec925eb3c2880d5fded0453b3 *R/internal_ops.R
-426b63b30255ef7fb98f9df3bd06fb4b *R/mnpca_mrl.R
+a99d6a367337708bfb62181cdb095008 *R/mnpca_mrl.R
 25978662266208d16581df71e154a997 *R/plsutils.R
 e45e9d1f7665459d8f744efd44cdc4f7 *R/repair_metric.R
 360e5b606f643c2882e8c126da5ccb90 *R/rpls.R
@@ -35,7 +35,7 @@ d8c1470655b47537f802808e1a0cb2c8 *inst/doc/gpca-metrics.Rmd
 51278b483cac5d031654eb64e7260771 *inst/doc/gpca-metrics.html
 c4a668fd21e169276770f19ab4cfeb88 *inst/doc/gpca-scale.R
 e43b9c0af92a4f0f0dac8c2b3dac958a *inst/doc/gpca-scale.Rmd
-ab27d5aab9930a3f4b6d9c89147900db *inst/doc/gpca-scale.html
+f377c07f17334b027cc001099f512e16 *inst/doc/gpca-scale.html
 a943cd7c7abcdac8a7cb003e89379a25 *inst/doc/gplssvd-reference.R
 64e443129196d113162e2a77fad08372 *inst/doc/gplssvd-reference.Rmd
 5c01a529dbc666b02b1894900438e95d *inst/doc/gplssvd-reference.html
